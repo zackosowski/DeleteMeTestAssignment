@@ -15,9 +15,31 @@ public class Tests {
 
 
    @Test
-   public void test(){
+   public void testAdd(){
        App.main(null);
        //assertEquals(EXPECTED RESULT, App.METHODtoTEST, "ERROR MESSAGE");
+       assertEquals(2, App.add(1, 1), "Addition failed");
+   }
+
+    @Test
+   public void testSubtract(){
+       App.main(null);
+       //assertEquals(EXPECTED RESULT, App.METHODtoTEST, "ERROR MESSAGE");
+       assertEquals(2, App.subtract(), "Addition failed");
+   }
+
+    @Test
+   public void testAdd(){
+       App.main(null);
+       //assertEquals(EXPECTED RESULT, App.METHODtoTEST, "ERROR MESSAGE");
+       assertEquals(2, App.add(), "Addition failed");
+   }
+
+    @Test
+   public void testAdd(){
+       App.main(null);
+       //assertEquals(EXPECTED RESULT, App.METHODtoTEST, "ERROR MESSAGE");
+       assertEquals(2, App.add(), "Addition failed");
    }
 
 }
